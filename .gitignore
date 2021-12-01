@@ -1,3 +1,5 @@
 secret.txt
 variable.tf
 .terraform
+terraform.tfstate
+terraform.tfstate.backup
