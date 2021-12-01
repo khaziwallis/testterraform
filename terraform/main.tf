@@ -9,3 +9,9 @@ module "s3" {
     #bucket name should be unique
     bucket_name = "bucket-via-terraform"       
 }
+
+resource "aws_s3_bucket_object" "sampleImage" {
+  bucket = "bucket-via-terraform"
+  source = "../assets/sampleImage.png"
+  key    = "sampleImage"
+}
