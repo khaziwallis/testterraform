@@ -7,5 +7,7 @@ aws configure
 
 ## terraform build
 terraform init
+
 terraform apply
+
 terraform destroy
