@@ -1,0 +1,5 @@
+secret.txt
+terraform/variable.tf
+terraform/.terraform
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
